@@ -1,0 +1,35 @@
+// libs
+@use "./libs/normalize.min.css" as *;
+
+// helpers
+@use "./helpers/variables.scss" as *;
+@use "./helpers/mixins.scss" as *;
+@use "./helpers/base_styles.scss" as *;
+
+// sections
+// @use "sections/" as *;
+
+// fonts
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url('../fonts/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url('../fonts/DancingScript-Bold.ttf');
+  font-weight: 700;
+}
