@@ -1,5 +1,4 @@
 * {
-	font-family: '', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -9,6 +8,49 @@ html {
 	scroll-behavior: smooth;
 }
 
+main {
+	overflow: hidden;
+}
+
+body,
+button {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+}
+
 body {
-	background: rgb(217, 210, 160);
+	background-color: var(--body-color);
+	color: var(--text-color);
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: var(--title-color);
+	font-weight: var(--font-bold);
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1120px;
+}
+
+.section {
+	padding-block: 5rem 1rem;
+}
+
+.title {
+	font-family: var(--second-font);
+	font-size: var(--bigger-font-size);
+	text-align: center;
+	margin-bottom: 1.5rem;
 }

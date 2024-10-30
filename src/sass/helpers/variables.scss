@@ -1,0 +1,27 @@
+:root {
+	// font weights
+	--font-regular: 400;
+	--font-semi-bold: 600;
+	--font-bold: 700;
+
+	// font families
+	--body-font: "Montserrat", sans-serif;
+	--second-font: "Dancing Script", cursive;
+
+	// font sizes
+	--biggest-font-size: 3rem;
+	--bigger-font-size: 2rem;
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+	--normal-font-size: .938rem;
+	--small-font-size: .813rem;
+
+	// z-indexes
+	--z-hamburger: 1000;
+	--z-header: 100;
+	--z-tooltip: 10;
+
+	// heights
+	--header-height: 3.5rem;
+}
