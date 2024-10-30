@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	user-select: none;
 }
 
 html {
@@ -42,6 +43,7 @@ a {
 
 .container {
 	max-width: 1120px;
+	margin-inline: 1.5rem;
 }
 
 .section {
