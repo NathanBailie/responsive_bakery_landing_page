@@ -37,20 +37,6 @@
 			margin-bottom: 1.5rem;
 		}
 
-		button {
-			display: flex;
-			background: var(--first-color);
-			color: var(--black-color);
-			font-weight: var(--font-semi-bold);
-			padding: 1.1rem;
-			transition: background-color .3s;
-			border-radius: 2px;
-
-			&:hover {
-				background-color: var(--first-color-alt);
-			}
-		}
-
 		img {
 			width: 50px;
 			position: absolute;

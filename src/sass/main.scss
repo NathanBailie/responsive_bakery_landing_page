@@ -7,9 +7,11 @@
 @use "./helpers/base_styles.scss" as *;
 
 // sections
+@use "sections/buttons/buttons.scss" as *;
 @use "sections/header/header.scss" as *;
 @use "sections/header/hamburger.scss" as *;
 @use "sections/home/home.scss" as *;
+@use "sections/news/news.scss" as *;
 
 // fonts
 @font-face {
