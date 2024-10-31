@@ -1,0 +1,46 @@
+.visit {
+	position: relative;
+
+	&_container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		position: relative;
+		padding-block: 6rem;
+	}
+
+	&_bg,
+	&_shadow {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+	}
+
+	&_bg {
+		object-fit: cover;
+		object-position: center;
+	}
+
+	&_shadow {
+		background: linear-gradient(180deg,
+				hsl(0, 0%, 6%) 0%,
+				hsla(0, 0%, 4%, .1) 50%,
+				hsl(0, 0%, 6%) 100%);
+	}
+
+	h2,
+	p {
+		margin-top: 0;
+	}
+
+	&_text {
+		font-size: var(--h2-font-size);
+		color: var(--title-color);
+		margin-bottom: 3rem;
+		text-align: center;
+	}
+}
