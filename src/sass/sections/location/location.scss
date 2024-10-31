@@ -1,4 +1,5 @@
 .location {
+	padding-block: 3rem;
 
 	&_container,
 	&_info-wrapper {
@@ -69,6 +70,56 @@
 			&:active {
 				transform: scale(1);
 			}
+		}
+	}
+
+	&_img1,
+	&_img2 {
+		position: absolute;
+		width: 50px;
+		z-index: -1;
+	}
+
+	&_img1 {
+		bottom: -33%;
+		right: 70%;
+	}
+
+	&_img2 {
+		bottom: -32%;
+		right: 11%;
+	}
+}
+
+@media(max-width: 800px) {
+	.location {
+		padding-block: 2rem;
+
+		&_container {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 3rem;
+		}
+
+		&_info-wrapper,
+		&_info {
+			text-align: center;
+		}
+
+		&_info-wrapper {
+			justify-content: center;
+		}
+
+		&_img1 {
+			top: 19%;
+			right: 69%;
+			bottom: 0;
+		}
+
+		&_img2 {
+			right: 11%;
+			bottom: 0%;
 		}
 	}
 }
