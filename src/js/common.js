@@ -25,3 +25,20 @@ window.addEventListener('scroll', () => {
 		? header.classList.add('blur-effect')
 		: header.classList.remove('blur-effect');
 });
+
+// scroll up
+const scrollUp = document.querySelector('.scrollup');
+scrollUp.addEventListener('click', function () {
+	window.scrollTo({
+		top: 0,
+		behavior: 'smooth',
+	});
+});
+
+window.addEventListener('scroll', () => {
+	const scrollY = this.scrollY;
+
+	this.scrollY >= 200
+		? scrollUp.classList.add('active')
+		: scrollUp.classList.remove('active');
+});

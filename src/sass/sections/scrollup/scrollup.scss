@@ -1,0 +1,23 @@
+.scrollup {
+	position: fixed;
+	right: 3rem;
+	bottom: -10%;
+	border-radius: .25rem;
+	padding: .45rem;
+	transition: .4s;
+	z-index: var(--z-header);
+	opacity: .5;
+
+	&.active {
+		bottom: 3rem;
+	}
+
+	&:hover {
+		opacity: 1;
+	}
+
+	img {
+		width: 1.2rem;
+		height: 1.2rem;
+	}
+}
