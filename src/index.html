@@ -73,11 +73,11 @@
 					<button class="home_button button">
 						Select Breads
 					</button>
-					<img src="./img/bread-1.png" alt="bread_img">
+					<img src="./img/bread-1.png" alt="bread_img" class="home_img-small">
 				</div>
 
 				<div class="home_img-wrapper">
-					<img src="./img/home-bread.png" alt="home_bread_img">
+					<img src="./img/home-bread.png" alt="home_bread_img" class="home_img-main">
 				</div>
 			</div>
 
@@ -88,13 +88,13 @@
 				</div>
 
 				<div class="home_socials">
-					<a href="#">
+					<a href="#" class="home_link">
 						<img src="./img/socials/facebook.png" alt="facebook_icon">
 					</a>
-					<a href="#">
+					<a href="#" class="home_link">
 						<img src="./img/socials/instagram.png" alt="instagram_icon">
 					</a>
-					<a href="#">
+					<a href="#" class="home_link">
 						<img src="./img/socials/youtube.png" alt="youtube_icon">
 					</a>
 				</div>
@@ -132,7 +132,6 @@
 						</p>
 					</div>
 					<img src="./img/new-bread-2.png" alt="new_bread_img" class="news_img">
-
 				</article>
 
 				<article class="news_item">
@@ -148,9 +147,11 @@
 
 
 			</div>
-			<button class="news_button button">
-				See More Breads
-			</button>
+			<div class="news_button-wrapper">
+				<button class="news_button button">
+					See More Breads
+				</button>
+			</div>
 		</section>
 
 		<!-- about -->
@@ -172,9 +173,11 @@
 						and coffee products.
 					</p>
 
-					<button class="about_button button">
-						Know More
-					</button>
+					<div class="about_button-wrapper">
+						<button class="about_button button">
+							Know More
+						</button>
+					</div>
 					<img src="./img/bread-2.png" alt="bread_2_img" class="about_bread2-img">
 				</div>
 			</div>
@@ -266,9 +269,11 @@
 					Discover the best bread, we look forward
 					to your visit.
 				</p>
-				<button class="visit_button button">
-					See Location
-				</button>
+				<div class="visit_button-wrapper">
+					<button class="visit_button button">
+						See Location
+					</button>
+				</div>
 			</div>
 		</section>
 	</main>
@@ -278,7 +283,7 @@
 			<div class="location_container container">
 				<article class="location_info">
 					<h2 class="location_logo">Bakery</h2>
-					<p>We make the best bread <br> in the city.</p>
+					<p class="location_descr">We make the best bread <br> in the city.</p>
 				</article>
 
 				<div class="location_info-wrapper">
@@ -287,9 +292,9 @@
 							Address
 						</h2>
 						<ul>
-							<li>AV. The Sun #321</li>
-							<li>Lima Peru</li>
-							<li>9AM - 11PM</li>
+							<li class="location_list-elem">AV. The Sun #321</li>
+							<li class="location_list-elem">Lima Peru</li>
+							<li class="location_list-elem" 9AM - 11PM</li>
 						</ul>
 					</article>
 
@@ -298,8 +303,8 @@
 							Contact Me
 						</h2>
 						<ul>
-							<li>bakery@email.com</li>
-							<li>+00 987 654 321</li>
+							<li class="location_list-elem">bakery@email.com</li>
+							<li class="location_list-elem">+00 987 654 321</li>
 						</ul>
 					</article>
 
@@ -309,13 +314,13 @@
 						</h2>
 						<div class="location_socials">
 							<a href="#">
-								<img src="./img/socials/facebook.png" alt="facebook_icon">
+								<img src="./img/socials/facebook.png" alt="facebook_icon" class="location_link">
 							</a>
 							<a href="#">
-								<img src="./img/socials/instagram.png" alt="instagram_icon">
+								<img src="./img/socials/instagram.png" alt="instagram_icon" class="location_link">
 							</a>
 							<a href="#">
-								<img src="./img/socials/youtube.png" alt="youtube_icon">
+								<img src="./img/socials/youtube.png" alt="youtube_icon" class="location_link">
 							</a>
 						</div>
 					</article>
@@ -332,6 +337,9 @@
 	</button>
 
 	<!-- endbuild -->
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
 	<!-- build:js js/common.min.js -->
 	<script src="js/common.js"></script>
 	<!-- endbuild -->
